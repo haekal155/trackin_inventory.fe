@@ -18,7 +18,7 @@ const Home = () => {
                 <div className='w-full mx-auto'>
                     <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
                         <div>
-                            <img src="public/banner1.png" />
+                            <img src="./banner1.png" />
                         </div>
                         <div className='md:w-1/2'>
                             <h1 className='text-5xl font-semibold mb-4 text-black md:w-3/4 leading-snug'>Ayo Manajemen Inventaris Anda Dengan Mudah</h1>
