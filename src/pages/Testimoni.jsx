@@ -12,13 +12,13 @@ const Testimoni = () => {
 
         <div className="flex justify-center md:grid-cols-2 lg:grid-cols-3 gap-20 mx-auto max-w-5xl">
           <div className="flex flex-col justify-center items-center bg-fourth-color border-4 border-slate-400 w-6/12 p-4 rounded-lg shadow-md">
-            <img className='rounded-lg ' src="public/testimoni1.png" />
+            <img className='rounded-lg ' src="./testimoni1.png" />
             <p className="mb-2 pt-6">“Aplikasi ini sangat membantu! Memudahkan pengelolaan inventaris dan menghemat waktu. Sangat direkomendasikan!”</p>
             <p className="font-semibold pt-12">Erik Lucatero, Pemilik Toko</p>
           </div>
         
           <div className="flex flex-col justify-center items-center bg-fourth-color border-4 border-slate-400 w-6/12 p-4 rounded-lg shadow-md">
-            <img className='rounded-lg' src="public/testimoni2.png" />
+            <img className='rounded-lg' src="./testimoni2.png" />
             <p className="mb-2 pt-6">"Aplikasi sistem inventaris ini luar biasa! Membantu saya mengatur stok barang dengan mudah dan efisien. Sekarang saya dapat fokus pada pertumbuhan bisnis tanpa khawatir tentang persediaan barang. Terima kasih!"</p>
             <p className="font-semibold">Panitan, Pengusaha</p>
           </div>

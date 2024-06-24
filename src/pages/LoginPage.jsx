@@ -1,39 +1,39 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+// import axios from "axios";
 
 const Login = () => {
-  const navigate = useNavigate();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+  // const navigate = useNavigate();
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
+  // const [error, setError] = useState("");
 
-  const handleLogin = async () => {
+  // const handleLogin = async () => {
     // Validasi email dan password tidak boleh kosong
-    if (!email || !password) {
-      setError("Email dan password harus diisi.");
-      return;
-    }
+    // if (!email || !password) {
+    //   setError("Email dan password harus diisi.");
+    //   return;
+    // }
 
-    try {
-      const response = await axios.post("http://localhost:5000/api/login", {
-        email: email,
-        password: password,
-      });
+    // try {
+    //   const response = await axios.post("http://localhost:5000/api/login", {
+    //     email: email,
+    //     password: password,
+    //   });
 
       // Jika login berhasil, arahkan pengguna ke halaman beranda
-      if (response.data.accessToken) {
+      // if (response.data.accessToken) {
         // Simpan token di localStorage atau context
-        localStorage.setItem("accessToken", response.data.accessToken);
-        navigate("/beranda");
-      } else {
-        setError("Email atau password salah");
-      }
-    } catch (error) {
-      console.error("Error during login:", error);
-      setError("Terjadi kesalahan saat login. Silakan coba lagi.");
-    }
-  };
+        // localStorage.setItem("accessToken", response.data.accessToken);
+        // navigate("/beranda");
+  //     } else {
+  //       setError("Email atau password salah");
+  //     }
+  //   } catch (error) {
+  //     console.error("Error during login:", error);
+  //     setError("Terjadi kesalahan saat login. Silakan coba lagi.");
+  //   }
+  // };
 
   return (
     <div className="w-full h-screen flex items-start">
