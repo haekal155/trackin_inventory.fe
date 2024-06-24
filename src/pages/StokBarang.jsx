@@ -52,7 +52,7 @@ const StokBarang = () => {
         <div className="relative w-[250px] h-full flex flex-col bg-gradient-to-b from-second-color via-fourth-color to-second-color">
           <div className="w-20 absolute top-[10%] left-[35%] flex flex-col">
             <img
-              src="public/trackinlogo.png"
+              src="./trackinlogo.png"
               onClick={() => navigate("/")}
               className="cursor-pointer"
             />

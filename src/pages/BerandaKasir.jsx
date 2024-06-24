@@ -12,7 +12,7 @@ const BerandaKasir = () => {
     <div className='w-full h-screen flex items-start'>
         <div className='relative w-[323px] h-full flex flex-col bg-gradient-to-b from-second-color via-fourth-color to-second-color'>
             <div className='w-20 absolute top-[10%] left-[35%] flex flex-col'>
-                <img src="public/trackinlogo.png" onClick={() => navigate('/')} className='cursor-pointer' />
+                <img src="./trackinlogo.png" onClick={() => navigate('/')} className='cursor-pointer' />
                 <h1 className='flex flex-col justify-center items-center'>TrackIn</h1>
             </div>
 
@@ -33,7 +33,7 @@ const BerandaKasir = () => {
     
                 <div className="rounded-xl flex items-center justify-end">
                     <button className='text-primary-color text-3xl mr-5' onClick={() => setShowKeranjangKasir(true)}><ion-icon name="cart-outline"></ion-icon></button> 
-                    <img src="public/orang.jpg" className='size-10 rounded-xl' />
+                    <img src="./orang.jpg" className='size-10 rounded-xl' />
                     <p className='pl-2 font-semibold'>Yoana</p>
                 </div>
             </div>
@@ -41,7 +41,7 @@ const BerandaKasir = () => {
             <div className='flex flex-wrap'>
                 <div className="bg-third-color p-4 rounded-lg shadow-md flex items-center mr-6">
                     <div className='bg-white rounded-lg mr-6 flex justify-center items-center size-[150px]'>
-                        <img src="public/royalcanin.png" className='size-[130px]' />
+                        <img src="./royalcanin.png" className='size-[130px]' />
                     </div>
                     
                     <div className="text-xl mb-2">
@@ -77,7 +77,7 @@ const BerandaKasir = () => {
 
                 <div className="bg-third-color p-4 rounded-lg shadow-md flex items-center">
                     <div className='bg-white rounded-lg mr-6 flex justify-center items-center size-[150px]'>
-                        <img src="public/royalcanin.png" className='size-[130px]' />
+                        <img src="./royalcanin.png" className='size-[130px]' />
                     </div>
                     
                     <div className="text-xl mb-2">
@@ -112,7 +112,7 @@ const BerandaKasir = () => {
 
                 <div className="bg-third-color p-4 rounded-lg shadow-md flex items-center mt-6">
                     <div className='bg-white rounded-lg mr-6 flex justify-center items-center size-[150px]'>
-                        <img src="public/royalcanin.png" className='size-[130px]' />
+                        <img src="./royalcanin.png" className='size-[130px]' />
                     </div>
                     
                     <div className="text-xl mb-2">
@@ -157,7 +157,7 @@ const BerandaKasir = () => {
             <div className='p-6'>
                 <h3 className='text-base text-gray-500 mb-5'>Keranjang</h3>
                 <div className='flex items-center justify-end'>
-                    <img src="public/royalcanin.png" className='size-14 mr-4' />
+                    <img src="./royalcanin.png" className='size-14 mr-4' />
                     <p className='text-sm'>Royal Canin 2 Kg</p>
                     <div className='ml-64 text-sm text-primary-color'>
                         Rp 200.000
@@ -165,7 +165,7 @@ const BerandaKasir = () => {
                 </div>
 
                 <div className='flex items-center justify-end mt-4'>
-                    <img src="public/royalcanin.png" className='size-14 mr-4' />
+                    <img src="./royalcanin.png" className='size-14 mr-4' />
                     <p className='text-sm'>Royal Canin 2 Kg</p>
                     <div className='ml-64 text-sm text-primary-color'>
                         Rp 200.000
@@ -173,7 +173,7 @@ const BerandaKasir = () => {
                 </div>
 
                 <div className='flex items-center justify-end mt-4'>
-                    <img src="public/royalcanin.png" className='size-14 mr-4' />
+                    <img src="./royalcanin.png" className='size-14 mr-4' />
                     <p className='text-sm'>Royal Canin 2 Kg</p>
                     <div className='ml-64 text-sm text-primary-color'>
                         Rp 200.000

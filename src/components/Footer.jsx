@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='flex flex-col items-center justify-center bg-primary-color h-[300px]'>
         <div className='flex flex-col sm:flex-row gap-8 sm:items-center justify-between max-w-4xl w-full p-8 mx-auto'>
           <div className='space-y-2 size-48 mb-6'>
-            <img src="public/logo.png" />
+            <img src="./logo.png" />
             <h1 className='flex flex-col font-bold items-center text-3xl text-white'>TrackIn</h1>
           </div>
           <div className='space-y-4'>

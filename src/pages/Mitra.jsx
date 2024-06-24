@@ -11,15 +11,15 @@ const Mitra = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto max-w-5xl">
         <div className="bg-white p-4 rounded-lg shadow-md flex justify-center">
-          <img src="public/trackinlogo.png" />
+          <img src="./trackinlogo.png" />
         </div>
 
         <div className="bg-white p-4 rounded-lg shadow-md flex justify-center">
-        <img src="public/endeavour.png" />
+        <img src="./endeavour.png" />
         </div>
 
         <div className="bg-white p-4 rounded-lg shadow-md flex justify-center">
-        <img src="public/vault.png" />
+        <img src="./vault.png" />
         </div>
         
       </div>

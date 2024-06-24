@@ -32,7 +32,7 @@ const Beranda = () => {
     <div className='w-full h-screen flex items-start'>
         <div className='relative w-[250px] h-full flex flex-col bg-gradient-to-b from-second-color via-fourth-color to-second-color'>
             <div className='w-20 absolute top-[10%] left-[35%] flex flex-col'>
-                <img src="public/trackinlogo.png" onClick={() => navigate('/')} className='cursor-pointer' />
+                <img src="./trackinlogo.png" onClick={() => navigate('/')} className='cursor-pointer' />
                 <h1 className='flex flex-col justify-center items-center'>TrackIn</h1>
             </div>
 
@@ -71,7 +71,7 @@ const Beranda = () => {
                 <div className='flex justify-center'>
                     <div className='bg-white rounded-lg text-center mr-6 w-32'>
                         <div className='bg-white flex justify-center'>
-                            <img src="public/royalcanin.png" className='flex justify-center items-center size-24 mt-2' />   
+                            <img src="./royalcanin.png" className='flex justify-center items-center size-24 mt-2' />   
                         </div>
                         <h1 className='font-bold text-sm'>Royal Canin</h1>
                         <p className='text-sm'>Rp 200.000</p>
@@ -79,7 +79,7 @@ const Beranda = () => {
 
                     <div className='bg-white rounded-lg text-center mr-6 w-32'>
                         <div className='bg-white flex justify-center'>
-                            <img src="public/royalcanin.png" className='flex justify-center items-center size-24 mt-2' />   
+                            <img src="./royalcanin.png" className='flex justify-center items-center size-24 mt-2' />   
                         </div>
                         <h1 className='font-bold text-sm'>Royal Canin</h1>
                         <p className='text-sm'>Rp 200.000</p>
@@ -87,7 +87,7 @@ const Beranda = () => {
 
                     <div className='bg-white rounded-lg text-center mr-6 w-32'>
                         <div className='bg-white flex justify-center'>
-                            <img src="public/royalcanin.png" className='flex justify-center items-center size-24 mt-2' />   
+                            <img src="./royalcanin.png" className='flex justify-center items-center size-24 mt-2' />   
                         </div>
                         <h1 className='font-bold text-sm'>Royal Canin</h1>
                         <p className='text-sm'>Rp 200.000</p>
@@ -101,7 +101,7 @@ const Beranda = () => {
         
         <div className='sticky w-80 h-full bg-white items-center p-10'>
             <div className="rounded-xl flex items-center justify-start mt-5 ml-4 mb-5"> 
-                <img src="public/orang.jpg" className='size-10 rounded-xl' />
+                <img src="./orang.jpg" className='size-10 rounded-xl' />
                 <div className='flex flex-col items-center'>
                     <p className='pl-2 font-semibold'>Ivan</p>
                     <div className='text-xs ml-2'><p>Admin</p></div>
@@ -109,15 +109,15 @@ const Beranda = () => {
             </div>
             <h1 className='text-4xl font-semibold mb-2'>Daftar Kasir</h1>
             <div className="bg-white p-4 rounded-xl shadow-md flex items-center">
-                <img src="public/orang.jpg" className='size-10 rounded-xl' />
+                <img src="./orang.jpg" className='size-10 rounded-xl' />
                 <li className='pl-2 font-semibold cursor-pointer list-none' onClick={() => navigate('/berandakasir')}>Yoana</li>
             </div>
             <div className="bg-white p-4 rounded-xl shadow-md flex items-center mt-5">
-                <img src="public/orang.jpg" className='size-10 rounded-xl' />
+                <img src="./orang.jpg" className='size-10 rounded-xl' />
                 <p className='pl-2 font-semibold'>Yuni</p>
             </div>
             <div className="bg-white p-4 rounded-xl shadow-md flex items-center mt-5">
-                <img src="public/orang.jpg" className='size-10 rounded-xl' />
+                <img src="./orang.jpg" className='size-10 rounded-xl' />
                 <p className='pl-2 font-semibold'>Rizky</p>
             </div>
             

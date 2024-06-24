@@ -8,15 +8,15 @@ const LupaPassword = () => {
     <div className='w-full h-screen flex items-start'>
         <div className='relative w-1/2 h-full flex flex-col'>
             <div className='absolute top-[50%] left-[20%] flex flex-col'>
-                <img src="public/logo.png" />
+                <img src="./logo.png" />
             </div>
-            <img src="public/coverimage.png" />
+            <img src="./coverimage.png" />
         </div>
 
         <div className='w-1/2 items-center h-full bg-white flex flex-col p-20'>
 
             <div className='w-20 flex flex-col items-center justify-center mb-10'>
-                <img src="public/trackinlogo.png" />
+                <img src="./trackinlogo.png" />
                 <h3>TrackIn</h3>
             </div>
 

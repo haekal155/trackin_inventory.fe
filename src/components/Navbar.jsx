@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='w-full bg-white'>
       <ul className='pt-6 md:flex space-x-10 hidden text-[15px] flex-col md:flex-row justify-around items-center'>
-      <a href="" className='text-1xl flex items-center space'><img src="public/trackinlogo.png" className='w-10 inline-block items-center' />TrackIn</a>
+      <a href="" className='text-1xl flex items-center space'><img src="./trackinlogo.png" className='w-10 inline-block items-center' />TrackIn</a>
       <div className='flex justify-center items-center gap-12 cursor-pointer'>
         <Link to="beranda" smooth={true} duration={500}>
           <li className='border-transparent transition duration-200 py-5 hover:text-primary-color'>Beranda</li>

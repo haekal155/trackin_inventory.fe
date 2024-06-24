@@ -8,7 +8,7 @@ const PengaturanKasir = () => {
     <div className='w-full h-screen flex items-start'>
         <div className='relative w-[265px] h-full flex flex-col bg-gradient-to-b from-second-color via-fourth-color to-second-color'>
             <div className='w-20 absolute top-[10%] left-[35%] flex flex-col'>
-                <img src="public/trackinlogo.png" onClick={() => navigate('/')} className='cursor-pointer' />
+                <img src="./trackinlogo.png" onClick={() => navigate('/')} className='cursor-pointer' />
                 <h1 className='flex flex-col justify-center items-center'>TrackIn</h1>
             </div>
 
@@ -31,7 +31,7 @@ const PengaturanKasir = () => {
             </div>
             <div className='mt-1'>
                 <p className='font-bold'>Profile Picture</p>
-                <img src="public/orang.jpg" className='size-24 rounded-full' />
+                <img src="./orang.jpg" className='size-24 rounded-full' />
                 <p className='mt-2'>Click <span className='font-bold text-primary-color hover:text-black cursor-pointer'>HERE</span> to change the picture</p>
             </div>
             <div className='mt-2'>

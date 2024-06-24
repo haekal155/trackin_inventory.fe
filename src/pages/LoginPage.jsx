@@ -39,14 +39,14 @@ const Login = () => {
     <div className="w-full h-screen flex items-start">
       <div className="relative w-1/2 h-full flex flex-col">
         <div className="absolute top-[50%] left-[20%] flex flex-col">
-          <img src="public/logo.png" alt="Logo" />
+          <img src="./logo.png" alt="Logo" />
         </div>
-        <img src="public/coverimage.png" alt="Cover" />
+        <img src="./coverimage.png" alt="Cover" />
       </div>
 
       <div className="w-1/2 items-center h-full bg-white flex flex-col p-20">
         <div className="w-20 flex flex-col items-center justify-center mb-10">
-          <img src="public/trackinlogo.png" alt="TrackIn Logo" />
+          <img src="./trackinlogo.png" alt="TrackIn Logo" />
           <h3>TrackIn</h3>
         </div>
 
